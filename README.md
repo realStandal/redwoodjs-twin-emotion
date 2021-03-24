@@ -8,29 +8,8 @@ It also uses the new Redwood `0.27` TypeScript `create-redwood-app` setting.
 
 Instructions on how to reproduce this repository can be found [here](https://github.com/realStandal/my-redwoodjs-tips-n-workflows/blob/main/twin-macro-emotion.md#redwoodjs-using-twinmacro--emotion).
 
----
+## Usage
 
-# Redwood
+To view this example (though I recommend you [set-it-up yourself](https://github.com/realStandal/my-redwoodjs-tips-n-workflows/blob/main/twin-macro-emotion.md#redwoodjs-using-twinmacro--emotion)), `clone` this repository and `install` all dependencies using Yarn.
 
-> **WARNING:** RedwoodJS software has not reached a stable version 1.0 and should not be considered suitable for production use. In the "make it work; make it right; make it fast" paradigm, Redwood is in the later stages of the "make it work" phase.
-
-## Getting Started
-- [Tutorial](https://redwoodjs.com/tutorial/welcome-to-redwood): getting started and complete overview guide.
-- [Docs](https://redwoodjs.com/docs/introduction): using the Redwood Router, handling assets and files, list of command-line tools, and more.
-- [Redwood Community](https://community.redwoodjs.com): get help, share tips and tricks, and collaborate on everything about RedwoodJS.
-
-### Setup
-
-We use Yarn as our package manager. To get the dependencies installed, just do this in the root directory:
-
-```terminal
-yarn install
-```
-
-### Fire it up
-
-```terminal
-yarn redwood dev
-```
-
-Your browser should open automatically to `http://localhost:8910` to see the web app. Lambda functions run on `http://localhost:8911` and are also proxied to `http://localhost:8910/.redwood/functions/*`. 
+`yarn rw storybook` should start the Storybook server, containing three example components, each built using a different `twin.macro` method.
