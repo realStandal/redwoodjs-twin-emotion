@@ -1,4 +1,4 @@
-# Redwood: Twin & Emotion Example
+# Redwood: Twin.Macro & Emotion Example
 
 > I saw some people talking about Twin and Emotion on the Redwood Discord and decided to share my experience integrating these tools with Redwood.
 
